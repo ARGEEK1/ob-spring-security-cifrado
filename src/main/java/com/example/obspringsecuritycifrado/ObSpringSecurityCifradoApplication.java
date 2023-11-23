@@ -15,7 +15,6 @@ public class ObSpringSecurityCifradoApplication {
 		return new BCryptPasswordEncoder();
 	}
 
-
 	public static void main(String[] args) {
 
 		ApplicationContext context = SpringApplication.run(ObSpringSecurityCifradoApplication.class, args);
